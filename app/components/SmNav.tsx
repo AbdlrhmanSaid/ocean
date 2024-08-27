@@ -29,7 +29,7 @@ const SmNav = () => {
             <nav className="w-full h-full flex flex-col space-y-2 capitalize font-normal tracking-wide">
               {navlinks.map((link, index) => (
                 <Link
-                  href={`/${link}`}
+                  href={`#${link}`}
                   className="py-1 px-2 transition-all rounded-md  hover:bg-slate-700 hover:text-sky-700"
                   key={index}
                   onClick={toggleMenu}
