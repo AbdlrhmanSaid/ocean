@@ -12,7 +12,6 @@ const config: Config = {
         center: true,
         padding: "1.5rem",
       },
-      transitionDuration: "500ms",
     },
   },
   plugins: [],
